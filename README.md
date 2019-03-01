@@ -30,8 +30,8 @@ bin/configure_venv_locally.sh
 # 1. add some color to your terminal
 source bin/color_my_terminal.sh
 
-# For exercise 1: run tests in watch mode
-nosetests --with-watch
+# For exercise 1: run tests in watch mode and with colored output
+nosetests --with-watch --rednose
 
 # For execise 2: in another docker terminal, start jupyter notebook
 jupyter notebook --ip 0.0.0.0 --no-browser --allow-root
